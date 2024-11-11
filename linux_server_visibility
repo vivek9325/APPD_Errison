@@ -1,0 +1,24 @@
+  1  clear
+    2  cd
+    3  apt update
+    4  ll
+    5  clear
+    6  curl -L -O -H "Authorization: Bearer eyJraWQiOiJoeEhXYTNsT09qS1BBbzkzaGpiZ1U5N3VPbGtScXJuQURqa2ltRVM3bWlvIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULkVjSEJDR0szc0xQMjFPVjR5b2lEMFVqZlZrbzh0OFVfcjlwUGhIVGY0TDQub2FyM3EzdTk3MEZueWg1aXoycDciLCJpc3MiOiJodHRwczovL2FwcGQtaWRlbnRpdHkub2t0YS5jb20vb2F1dGgyL2F1c3B2bnAzdmtrclNIMk9RMnA2IiwiYXVkIjoibWljb3JzZXJ2aWNlcyIsImlhdCI6MTczMTMyMDIwOCwiZXhwIjoxNzMxNDA2NjA4LCJjaWQiOiIwb2ExanMxMHQ3ekJjTENnRzJwNyIsInVpZCI6IjAwdTEwMHVsNTB3SWVPT2lrMnA4Iiwic2NwIjpbIm9mZmxpbmVfYWNjZXNzIiwiZG93bmxvYWQiLCJvcGVuaWQiXSwiYXV0aF90aW1lIjoxNzMxMzEwOTUxLCJzdWIiOiJsb2JvZDYwMjA0QGluaWthbGUuY29tIn0.lc5ZFOWIx84opH06HylfxPoB3fd0-Og3GsalzPRpd63Gr3V7U7bM3EwaxzXeRjx3SXcwmAolgj0QRF1QEhswgOGJxO0HeYCF-gG4Onk2fpZcWrQw2eM982yWSBH-GU7aKbq8T4uJVvMczMrFwm4hmh_-cYbsd83qrrrWj3Z2AEXP_8sAD_yhmSW7fbW6HpS2uCVhaEWsiGsTiKLgQlcTK5cUEY2bT8UzJ-1qtZ-wlBTQ_kOIrzFcqR6_NtpjfiYDC7zW9HMCaQD80fanyOqWtTh80fnnL1Y-3WsD7Td97N8J2fwJn1Ka5PmxxFEk4lGNAcu496cWn9N55A8A-DMW0w;" "https://download.appdynamics.com/download/prox/download-file/machine-bundle/24.9.1.4416/machineagent-bundle-64bit-linux-24.9.1.4416.zip"
+    7  ll
+    8  apt install zip
+    9  cleare
+   10  clear
+   11  ll
+   12  mkdir machine_agent
+   13  ll
+   14  cd machine
+   15  cd machine_agent/
+   16  unzip ../machineagent-bundle-64bit-linux-24.9.1.4416.zip -d .
+   17  clear
+   18  ll
+   19  cd conf/
+   20  ll
+   21  nano controller-info.xml
+   22  cd
+   23  ll
+   24  history
