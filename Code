@@ -1,0 +1,5 @@
+Put load on the server ----------
+
+
+
+for i in {1..100}; do curl -s http://34.207.88.143/carrental/car-listing.php > /dev/null;done
